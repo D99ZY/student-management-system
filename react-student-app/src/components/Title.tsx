@@ -1,3 +1,5 @@
+import { useContext } from 'react';
+import { GlobalContext } from '../context/GlobalState';
 import styles from './Title.module.css';
 
 interface TitleProps {
@@ -5,9 +7,16 @@ interface TitleProps {
 }
 
 const Title = ({title}: TitleProps) => {
+
+    // Context
+    const {
+        state: { student }
+    } = useContext(GlobalContext);
+
+    // JSX
     return (
         <h1 className={styles.container}>
-            {title}
+            {student.displayStudent ? `${student.firstName} ${student.lastName}` : title}
         </h1>
     );
 };
