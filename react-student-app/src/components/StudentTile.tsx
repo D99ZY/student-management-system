@@ -1,9 +1,16 @@
 import styles from './StudentTile.module.css';
 
-const StudentTile = () => {
+interface StudentInfo {
+    firstName: string;
+    lastName: string;
+    schoolYear: string;
+}
+
+const StudentTile = (props: StudentInfo) => {
     return (
         <div className={styles.container}>
-            <h4>StudentTile</h4>
+            <h2>{`${props.firstName} ${props.lastName}`}</h2>
+            <h3>{`Year: ${props.schoolYear}`}</h3>
         </div>
     );
 };
