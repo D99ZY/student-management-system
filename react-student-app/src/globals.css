@@ -1,0 +1,47 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+/* Remove Default Properties */
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 62.5%; /* default: 16px; 16px x 62.5% = 10px = 1rem */
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML Tags */
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+label, input, span, button {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
