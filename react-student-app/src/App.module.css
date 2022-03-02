@@ -26,3 +26,41 @@
     padding: 1rem 2rem;
     width: 60%;
 }
+
+
+@media screen and (max-width: 1920px) {
+    .titleContainer {
+        width: 70%;
+    }
+    
+    .appContainer {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .titleContainer {
+        width: 80%;
+    }
+    
+    .appContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .titleContainer {
+        width: 90%;
+    }
+    
+    .appContainer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .appContainer {
+        margin: 0.5rem 0rem 2rem 0rem;
+        padding: 1rem 1rem;
+    }
+}
