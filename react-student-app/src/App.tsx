@@ -1,10 +1,11 @@
+import Title from './components/Title';
 import styles from './App.module.css';
 import './globals.css';
 
 function App() {
     return (
         <div className={styles.app}>
-            <h1>Hello, World!</h1>
+            <Title title='My Students' />
         </div>
     );
 }
