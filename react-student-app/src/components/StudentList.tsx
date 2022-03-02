@@ -56,6 +56,7 @@ const StudentList = () => {
             
                 <StudentTile
                     key={student.source_id}
+                    sourceID={student.source_id}
                     firstName={student.first_name}
                     lastName={student.last_name}
                     schoolYear={student.year_code}
