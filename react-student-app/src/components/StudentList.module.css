@@ -4,3 +4,9 @@
     flex-wrap: wrap;
     width: 100%;
 }
+
+.none {
+    margin: 6rem 0rem;
+    text-align: center;
+    width: 100%;
+}
