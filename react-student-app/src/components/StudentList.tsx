@@ -20,10 +20,9 @@ const StudentList = () => {
 
     return (
         <div className={styles.container}>
-            <h3>StudentList</h3>
 
             {displayStudents()}
-            
+
         </div>
     );
 };
