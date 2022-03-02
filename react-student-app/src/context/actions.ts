@@ -1,7 +1,7 @@
 import { Options, Action } from './types';
 
 // Actions
-export const updateViewBar = (options: Options): Action => ({
+export const updateOptions = (options: Options): Action => ({
     type: 'UPDATE_OPTIONS',
     payload: options,
 });

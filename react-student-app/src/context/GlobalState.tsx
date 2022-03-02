@@ -10,7 +10,7 @@ const initialState: GlobalState = {
         filter: 0,
         sort: 0,
     },
-}
+};
 
 // Create context
 export const GlobalContext = createContext<Context>({
