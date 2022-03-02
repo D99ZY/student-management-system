@@ -45,3 +45,41 @@ label, input, span, button {
     font-size: 1.8rem;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 480px) {
+    /* HTML Tags */
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        letter-spacing: 0.15rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 0.05rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    label, input, span, button {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+}
