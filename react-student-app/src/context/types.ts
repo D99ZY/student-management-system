@@ -28,14 +28,21 @@ export type Student = {
     contacts: Contact[];
 };
 
+export type StudentRating = {
+    sourceID: string;
+    starRating: number;
+};
+
 export type GlobalState = {
     options: Options;
     student: Student;
+    studentRatingList: StudentRating[];
 };
 
 export type Action = 
     | { type: 'UPDATE_OPTIONS'; payload: Options; }
-    | { type: 'UPDATE_STUDENT'; payload: Student; };
+    | { type: 'UPDATE_STUDENT'; payload: Student; }
+    | { type: 'UPDATE_STUDENT_RATING_LIST'; payload: StudentRating[]; };
 
 export type Context = {
     state: GlobalState;

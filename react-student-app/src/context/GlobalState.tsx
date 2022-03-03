@@ -34,6 +34,9 @@ const initialState: GlobalState = {
             }
         ]
     },
+    studentRatingList: [
+        { sourceID: '1', starRating: 5 },
+    ]
 };
 
 // Create context

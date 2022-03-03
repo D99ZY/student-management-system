@@ -12,6 +12,11 @@ const AppReducer = (state: GlobalState, action: Action): GlobalState => {
                 ...state,
                 student: action.payload,
         };
+        case 'UPDATE_STUDENT_RATING_LIST':
+            return {
+                ...state,
+                studentRatingList: action.payload,
+        };
         default:
             return state;
     }
