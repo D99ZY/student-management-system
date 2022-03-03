@@ -8,7 +8,7 @@ const Filter = () => {
     type Choice = {
         label: string;
         value: number;
-    }
+    };
 
     // Array of form select options
     const choiceList: Choice[] = [
@@ -78,7 +78,7 @@ const Filter = () => {
     const handleOnChange = (e: React.FormEvent<HTMLSelectElement>): void => {
         const { selectedIndex } = e.currentTarget;
         setFilterState(selectedIndex);
-    }
+    };
 
     // Update context on filterState change
     useEffect(() => {
