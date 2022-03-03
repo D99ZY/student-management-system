@@ -10,6 +10,10 @@
 }
 
 .backContainer h1 {
+    color: #333333;
+}
+
+.backContainer h1 {
     cursor: pointer;
 }
 
@@ -17,14 +21,40 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     row-gap: 1rem;
 }
 
 .section {
+    
+    border: 2px solid #dadada;
+    border-radius: 5px;
+
+    display: flex;
+    flex: 1 1 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 1rem 2rem;
+    min-width: 250px;
+    padding: 1rem 1rem;
 }
 
 .section h3 {
     margin-bottom: 1rem;
+}
+
+.section button {
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.25);
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .section {
+        min-width: 150px;
+    }
 }
